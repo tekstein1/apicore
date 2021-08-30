@@ -26,6 +26,7 @@ export default new Service({
   routes: {
       status: method({
       GET: [validate, status],
+      POST: [status]
     }),
   },
 })
